@@ -149,17 +149,23 @@ p{
 .btn-green{
     background-color: #4E946A;
     color: #ffffff;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 .btn-online{
     background: transparent;
     color: #ffffff;
     border: 1px solid #4D5562;
+    
 }
 
 .btn-icon{
     width: 20px;
-    height: auto;
+    height: 10px;
+    padding: 4px 4px 4px 4px; 
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 
@@ -325,3 +331,28 @@ icon-circle img{
     height: 24px;
     object-fit: contain;
 } 
+
+/*fourth commit*/
+
+
+.cha-box{
+    text-align: center;
+    background: #ffffff;
+    border: 16px;
+    padding: 80px;
+    margin-bottom: 80px;
+}
+
+.cha-box h2{
+
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.disclaimer{
+    margin-top: 20px;
+    font-size: 13px;
+    color: #94a3b8;
+}
+
+
