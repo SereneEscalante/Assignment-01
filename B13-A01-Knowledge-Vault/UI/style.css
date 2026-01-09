@@ -66,3 +66,101 @@ body{
 .btn-ea:hover{
     background-color: #3d7553;
 }
+
+
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../assets/hero-bg.png');
+    background-size: #0D1626;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 730px;
+    color: #ffffff;
+    padding: 40px 20px;
+}
+
+.banner-container{
+    max-width: 1000px;
+    width: 100%;
+}
+
+.banner-file{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.badge{
+    background: #1A2E2A;
+    color: #4E946A;
+    padding: 8px 18px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    border: 1px solid #4E946A;
+}
+
+h1{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.highlight{
+  color: #4E946A;  
+}
+
+p{
+    font-size: 18px;
+    color: #C4CCD4;
+    line-height: 1.6;
+    max-width: 700px;
+    margin-bottom: 40px;
+}
+
+.banner-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.btn{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-size: 600;
+    border: none;
+}
+
+.btn-green{
+    background-color: #4E946A;
+    color: #ffffff;
+}
+
+.btn-online{
+    background: transparent;
+    color: #ffffff;
+    border: 1px solid #4D5562;
+}
+
+.btn-icon{
+    width: 20px;
+    height: auto;
+}
+
+
+
+
+
